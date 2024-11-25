@@ -13,11 +13,11 @@ interface DestinationItemProps {
 const DestinationItem: React.FC<DestinationItemProps> = ({ name, difficulty, isFavorite, onToggleFavorite, onDelete, onEdit }) => {
   const getDifficultyColor = () => {
     switch (difficulty) {
-      case 'Fácil':
+      case 'easy':
         return 'green';
-      case 'Moderada':
+      case 'medium':
         return 'yellow';
-      case 'Difícil':
+      case 'hard':
         return 'purple';
       default:
         return 'gray';
