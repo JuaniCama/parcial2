@@ -1,0 +1,1 @@
+export const API_BASE_URL = 'http://161.35.143.238:8000/jcama';
